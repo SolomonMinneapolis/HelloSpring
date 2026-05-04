@@ -12,6 +12,9 @@ public class HelloController {
 
         String name = "Solomon";
         model.addAttribute("name", name);
+        model.addAttribute("className", "Java");
+        model.addAttribute("classCode", 2545);
+
         return "hello";
     }
 
